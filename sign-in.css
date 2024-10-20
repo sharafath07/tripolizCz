@@ -1,0 +1,133 @@
+body{
+    height: 1024px;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 100%;
+    background-image: url(/images/sign-in-background.jpg);
+    background-size: 819.2px 1024px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, rgb(255,255,255,1)50%, rgb(255,255,255,0)100%); 
+}
+
+header h1{
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 20;
+}
+
+header .flight-icon{
+    width: 30px;
+}
+
+main{
+    margin-top: 190px;
+}
+
+main h2{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    margin-left: 65px;
+    line-height: 29.88px;
+}
+
+main h1{
+    font-family: 'Rowdies', Arial, Helvetica, sans-serif;
+    font-size: 74px;
+    margin: 0;
+    margin-left: 65px;
+    line-height: 92.13px;
+}
+
+main p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    margin-left: 65px;
+    line-height: 29.88px;
+}
+main p span{
+    font-weight: 500;
+    color: #029BC5;
+    line-height: 29.88px;
+
+}
+
+form{
+    margin-top: 60px;
+}
+
+form input{
+    border: 0;
+    background-color: #F2F2F2;
+    border-radius: 14px;
+    margin-left: 90px;
+    height: 60px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding-left: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 194.81px;
+    margin-top: 30px;
+}
+
+form input::placeholder{
+    color: #929292;
+    opacity: 50%;
+}
+
+form .last{
+    margin-left: 30px;
+}
+
+form .email{
+    width: 441px;
+}
+
+form .password{
+    width: 441px;
+}
+
+.buttons{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.buttons button{
+    width: 209;
+    text-align: center;
+    height: 60px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.buttons .change{
+    margin-right: 20px;
+    background-color: #969191;
+}
+
+.buttons .create{
+    background-color: #029BC5;
+}
