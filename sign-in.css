@@ -1,5 +1,5 @@
 body{
-    height: 1024px;
+    height: 100vh;
     margin: 0;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: white;
@@ -24,7 +24,7 @@ body{
 header h1{
     align-items: center;
     margin-left: 65px;
-    margin-top: 20;
+    margin-top: 10;
 }
 
 header .flight-icon{
@@ -32,43 +32,43 @@ header .flight-icon{
 }
 
 main{
-    margin-top: 190px;
+    margin-top: 75px;
 }
 
 main h2{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     margin: 0;
     margin-left: 65px;
-    line-height: 29.88px;
+    line-height: 10px;
 }
 
 main h1{
     font-family: 'Rowdies', Arial, Helvetica, sans-serif;
-    font-size: 74px;
+    font-size: 55.5px;
     margin: 0;
     margin-left: 65px;
-    line-height: 92.13px;
+    line-height: 69.925px;
 }
 
 main p{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     margin: 0;
     margin-left: 65px;
-    line-height: 29.88px;
+    line-height: 22.5px;
 }
 main p span{
     font-weight: 500;
     color: #029BC5;
-    line-height: 29.88px;
+    line-height: 22.5px;
 
 }
 
 form{
-    margin-top: 60px;
+    margin-top: 45px;
 }
 
 form input{
@@ -76,15 +76,15 @@ form input{
     background-color: #F2F2F2;
     border-radius: 14px;
     margin-left: 90px;
-    height: 60px;
+    height: 45px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
     padding-left: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 194.81px;
-    margin-top: 30px;
+    margin-top: 22.5px;
 }
 
 form input::placeholder{
@@ -106,16 +106,16 @@ form .password{
 
 .buttons{
     margin-left: 90px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .buttons button{
     width: 209;
     text-align: center;
-    height: 60px;
+    height: 45px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     border: none;
     border-radius: 35px;
