@@ -16,6 +16,7 @@ header{
     right: 0;
     background-color: white;
     padding-right: 150px;
+    z-index: 99;
 }
 
 header h1{
@@ -121,6 +122,8 @@ main .first .first-section .top h1{
     font-family: 'Alatsi', Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     margin: 0;
+    box-shadow: -3px 3px 0px 0px #204E0A8C;
+
 }
 
 main .first .interact{
@@ -139,6 +142,7 @@ main .first .interact button{
     text-align: center;
     padding: 27px 45px;
     color: #FFFFFF;
+    box-shadow: 0px 4px 130px 0px #FFC10738;
 }
 
 main .first .interact button img{
@@ -157,6 +161,8 @@ main .first .interact .searchbar{
     align-items: center;
     justify-content: center;
     width: 450px;
+    box-shadow: 0px 9px 54px 0px #5D83E5;
+
 }
 
 main .first .interact .searchbar input[type="search"]{
@@ -296,7 +302,8 @@ main .second .third-section .slider button{
 
 main .second .third-section .container-box .container{
     width: 348.75px;
-    height: 560.25px;
+    border-radius: 31px;
+    box-shadow: 0px 4px 28px 0px #00000014;
 }
 
 main .second .third-section .container-box .container .img{
@@ -316,6 +323,7 @@ main .second .third-section .container-box .container .content{
     background-color: #FFFFFF;
     border-radius: 31px;
     z-index: 1;
+    box-shadow: 0px -11px 14px -5px #00000047;
 }
 
 main .second .third-section .container-box .container .content h3{
@@ -369,4 +377,102 @@ main .second .third-section .container-box .container .content .bot h6 span{
     font-weight: 300;
     line-height: 12px;
     color: #00000099;
+}
+
+main .third-forth{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .third-forth .third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .third-forth .third h2{
+    font-family: Lexend;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 69.92px;
+    text-align: center;
+}
+
+main .third-forth .third .section{
+    display: grid;
+    grid-template-columns: 477px 477px;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+main .third-forth .third .section .box{
+    background-color: #FFFFFF;
+    border-radius: 58px;
+    box-shadow: 0px 14px 24px -5px #E0C3CD;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 15px 20px;
+}
+
+main .third-forth .third .section .box .imgbg{
+    width: 78px;
+    height: 81px;
+    border-radius: 55px;
+    margin-right: 20px;
+}
+
+main .third-forth .third .section .box .imgbg1{
+    background: linear-gradient(180deg, #9492EA -7.33%, rgba(41, 6, 255, 0.76) 134.63%);
+}
+main .third-forth .third .section .box .imgbg2{
+    background: linear-gradient(180deg, #FF7A00 -7.33%, rgba(255, 75, 3, 0.902198) 58.15%, rgba(255, 6, 6, 0.76) 134.63%);
+}
+main .third-forth .third .section .box .imgbg3{
+    background: linear-gradient(180deg, #E69BD1 -7.33%, rgba(255, 0, 184, 0.9) 121.5%);
+}
+main .third-forth .third .section .box .imgbg4{
+    background: linear-gradient(180deg, #91FF6A -7.33%, rgba(11, 127, 36, 0.9) 132.88%);
+}
+
+main .third-forth .third .section .box:nth-child(1) img{
+    width: 150px;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+main .third-forth .third .section .box:nth-child(2) img{
+    margin-left: 17px;
+    margin-top: 10px;
+    width: 45px;
+}
+main .third-forth .third .section .box:nth-child(3) img{
+    margin-top: 10px;
+    margin-left: 6px;
+}
+main .third-forth .third .section .box:nth-child(4) img{
+    margin-top: -20px;
+    margin-left: -23px;
+    width: 125px;
+}
+
+main .third-forth .third .section .text h3{
+    font-family: 'NATS';
+    font-size: 33.75px;
+    font-weight: 400;
+    line-height: 36.87px;
+    margin: 0;
+}
+
+main .third-forth .third .section .text h6{
+    font-family: 'NATS';
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 24.5px;
+    color: #9A9797;
+    margin: 0;
 }
