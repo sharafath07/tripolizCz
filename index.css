@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto','Abhaya-libre', Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #EDECEC;
 }
 
 header{
@@ -84,15 +84,15 @@ header select{
 main .first{
     width: 100%;
     margin-top: 100px;
-    height: calc(100vh - 100px);
+    height: calc(80vh - 100px);
     background-color: #f2f2f2;
     background-image: url(./images/background.jpg);
     background-position: 0px 0px 0px;
 }
 
 main .first .first-section{
-    background-image: linear-gradient(to top, rgb(255,255,255,1)1%,rgb(255,255,255,0)15%);
-    height: calc(100vh - 100px);
+    background-image: linear-gradient(to top, rgb(237, 236, 236) 1%,rgba(237, 236, 236, 0) 15%);
+    height: calc(80vh - 100px);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -111,6 +111,7 @@ main .first .first-section .top h2{
     font-size: 27px;
     font-weight: 700;
     line-height: 40.5px;
+    margin: 0;
 }
 
 main .first .first-section .top h1{
@@ -119,6 +120,7 @@ main .first .first-section .top h1{
     font-weight: 400;
     font-family: 'Alatsi', Arial, Helvetica, sans-serif;
     color: #FFFFFF;
+    margin: 0;
 }
 
 main .first .interact{
@@ -126,7 +128,6 @@ main .first .interact{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 150px;
 }
 
 main .first .interact button{
@@ -151,13 +152,11 @@ main .first .interact .searchbar{
     border-top-right-radius: 70px;
     border-bottom-right-radius: 70px;
     border-bottom-left-radius: 40px;
-    background-image: linear-gradient(to top,#0075FFEB 1%,#6F8BF0 100%);
-    opacity: 80%;
+    background-image: linear-gradient(to top,rgba(0, 117, 255, 0.8) 1%,rgba(111, 139, 240, 0.8) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     width: 450px;
-    
 }
 
 main .first .interact .searchbar input[type="search"]{
@@ -190,4 +189,184 @@ main .first .interact input::placeholder{
 
 main .first .interact input{
     border: none;
+}
+
+main .second{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDECEC;
+}
+
+main .second .first-section{
+    background-image: linear-gradient(to top,#2CBAE1,#00B3E5);
+    width: 560.25px;
+    height: 123px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+main .second .first-section .nav{
+    color: #FFFFFF;
+    text-align: center;
+    width: 159px;
+    height: 104px;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .second .first-section .active{
+    background-color: #FFFFFF;
+}
+
+main .second .first-section .active h6{
+    color: #029BC5;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+main .second .first-section .nav img{
+    height: 63px;
+}
+
+main .second .first-section .nav h6{
+    margin: 0px;
+    font-weight: 700;
+    line-height: 19.5px;
+    font-size: 18px;
+}
+
+main .second .second-section{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+main .second .second-section h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main .second .second-section h2{
+    color: #474747;
+    font-family: "Inder" ,Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 33.75px;
+    margin: 0;
+}
+
+main .second .third-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-around;
+    margin: 30px 0 30px 0;
+}
+
+main .second .third-section .container-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+
+}
+
+main .second .third-section .slider button{
+    width: 60px;
+    height: 66px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+}
+
+main .second .third-section .container-box .container{
+    width: 348.75px;
+    height: 560.25px;
+}
+
+main .second .third-section .container-box .container .img{
+    width: 348.75px;
+    height: 391.5px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 0;
+}
+
+main .second .third-section .container-box .container .content{
+    margin-top: -31px;
+    position: relative;
+    padding: 20px;
+    height: 203.25px;
+    background-color: #FFFFFF;
+    border-radius: 31px;
+    z-index: 1;
+}
+
+main .second .third-section .container-box .container .content h3{
+    font-family: "Archivo Black", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 10px 0 20px 0;
+
+}
+
+main .second .third-section .container-box .container .content p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    font-family: "Inder", Arial, Helvetica, sans-serif;
+    margin: 10px 0 0 0;
+    color: #474747;
+}
+
+main .second .third-section .container-box .container .content .bot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .second .third-section .container-box .container .content .bot button{
+    background-image: linear-gradient(to top, #5FB5CD, #029BC5);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 9px;
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22.5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+main .second .third-section .container-box .container .content .bot h6{
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22.5px;
+    color: #000000C7;
+}
+
+main .second .third-section .container-box .container .content .bot h6 span{
+    font-size: 9.75px;
+    font-weight: 300;
+    line-height: 12px;
+    color: #00000099;
 }
