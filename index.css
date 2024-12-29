@@ -380,12 +380,14 @@ main .second .third-section .container-box .container .content .bot h6 span{
 }
 
 main .third-forth{
+    margin-top: 100px;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 150px;
 }
 
 main .third-forth .third{
@@ -474,5 +476,87 @@ main .third-forth .third .section .text h6{
     font-weight: 400;
     line-height: 24.5px;
     color: #9A9797;
+    margin: 0;
+}
+
+main .third-forth .forth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .third-forth .forth .text{
+    width: 100%;
+}
+
+main .third-forth .forth .text h2{
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+main .third-forth .forth .text img{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 70%;
+}
+
+main .third-forth .forth .text h4{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+main .third-forth .forth .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+main .third-forth .forth .container .box{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #FFF8F5;
+    width: 250px;
+    height: 175px;
+    gap: 25px;
+    border-radius: 8px;
+    border: 2px solid #66666614;
+}
+
+main .third-forth .forth .container .box img{
+    width: 40px;
+}
+
+main .third-forth .forth .container .box h5{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.5px;
+    color: #222222;
+    margin: 0;
+}
+
+main .third-forth .forth .container .box p{
+    color: #666666;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.5px;
     margin: 0;
 }
